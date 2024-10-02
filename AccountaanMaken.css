@@ -1,0 +1,56 @@
+{
+    box-sizing: border-box;
+    font-family: 'Poppins';
+
+}
+
+body {
+    background-image: url(foto/4k-background-fd313fxzl511betu.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.box {
+    width: 420px;
+    height: 850px;
+    color: #ffffff;
+    border-radius: 20px;
+    
+
+}
+ .box .vnaam {
+    position: relative;
+    width: 98%;
+    height: 20px;
+    margin: 60px 0;
+
+}
+.vnaam input{
+    width: 80%;
+    height: 80%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(225, 225, 225, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 20px 45px 20px 20px;
+}
+
+.vnaam input::placeholder {
+    color: #ffffff;
+    
+}
+
+.box .Aanmaak {
+    width: 96%;
+    height: 50px;
+    background: #ffffff;
+    bottom: none;
+    outline: none;
+    border-radius: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-bottom: 20px;
+
+}
