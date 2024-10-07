@@ -1,13 +1,10 @@
-
 h1 {
     text-align: center;
     color: #04135a;
 }
-
 .navbar{
     text-align: center;
 }
-
 .navbar ul {
     list-style-type: none;
     background-color: rgba(94, 5, 5, 0.600);
@@ -15,7 +12,6 @@ h1 {
     width: 600px;
     display: inline-block;
 }
-
 .navbar a {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -24,21 +20,14 @@ h1 {
     display: block;
     text-align: left;
 }
-
 .navbar a:hover {
-
     color: #ffffff;
-  
     text-shadow: 0 -1px 0 #ffffff;
     font-weight: bold;
 }
-
 .navbar li {
     display: inline-block;
 }
-
-
-
 @-webkit-keyframes bg-scrolling-reverse {
   100% {
     background-position: 50px 50px;
@@ -79,7 +68,6 @@ h1 {
     background-position: 50px 50px;
   }
 }
-
 body {
   margin-top: 13.5rem;
   color: #922020ce;
