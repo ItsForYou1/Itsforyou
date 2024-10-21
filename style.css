@@ -22,7 +22,7 @@ h1 {
 }
 .navbar a:hover {
     color: #ffffff;
-    text-shadow: 0 -1px 0 #ffffff;
+  
     font-weight: bold;
 }
 .navbar li {
@@ -88,4 +88,17 @@ body::before {
   font-size: 8rem;
   font-weight: 100;
   font-style: normal;
+}
+
+#clock-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#clock{
+
+  font-family: monospace;
+  font-size: 6rem;
+  font-weight: bold;
+  text-align: center; 
 }

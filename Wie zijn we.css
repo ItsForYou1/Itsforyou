@@ -9,14 +9,13 @@ body {
   
   h1 {
     font-size: 9vmin;
-    color: #8bf;
+    color: rgba(242, 255, 0, 0.944);
     text-align: left;
     font-family: Lato, sans-serif;
     font-weight: 700;
     margin: 1rem 0 1rem 2rem;
   }
   
-  /* Typewriter effect 1 */
   @keyframes typing {
     0.0000%, 27.3488% { content: ""; }
     1.1395%, 26.2093% { content: "D"; }
@@ -92,19 +91,16 @@ body {
     .typewriter::after {
       animation: none;
     }
-    
+   
     @keyframes sequencePopup {
       0%, 100% { content: "developer"; }
       25% { content: "writer"; }
       50% { content: "reader"; }
       75% { content: "human"; }
     }
-  
     .typewriter::before {
       content: "developer";
       animation: sequencePopup 12s linear infinite;
     }
   }
-  
-  /**/
   
