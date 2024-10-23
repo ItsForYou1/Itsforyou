@@ -1,20 +1,48 @@
 body{
-background-image: url(4k-background-fd313fxzl511betu.jpg);
-font-family: Verdana;
-text-align: center;
+    font-family: Verdana;
+    text-align: center;
+    }
+    
+h1{
+    font-size: 3.5rem;
+
 }
 
-#mybutton{
-    font-size: 3em;
-    padding: 5px 25px;
-    border-radius: 5px;
+.Chosices{
+    margin-bottom: 30px;
+}
+
+.Chosices button{
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 600px;
+    background-color: rgb(0, 132, 255);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.Chosices button:hover{
+    background-color: rgb(0, 204, 255);
+}
+
+
+#PlayerDisplay, #ComputerDisplay{
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#ResultDisplay{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+.greenText{
+    color: rgb(72, 255, 0);
+}
+
+.redText{
     color: red;
-    border-color: black;
-    background-color: rgb(255, 255, 255);
 }
-
-#Mylabel{
-    font-size: 3em;
-    color: rgb(255, 0, 0);
-}
-
